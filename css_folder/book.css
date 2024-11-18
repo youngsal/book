@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-color: hsl(229, 31%, 21%);
+    --article-color: hsl(229, 8%, 60%);
+    --grayish-blue: hsl(231, 69%, 60%);
+    /* --headings-fonts: 1.125rem; */
+    --headings-fonts: 1.5rem;
+    --hoverActive-color: hsl(0, 94%, 66%);
+}
+
+@media screen and (max-width: 1440px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "Rubik", serif;
+    }
+    
+    body {
+        min-height: 100vh;
+        font-size: 0.875rem;
+        overflow-x: hidden;
+        margin: 2rem 7rem 0rem 7rem;
+        /* border: 0.3rem solid black; */
+    }
+    
+    /* =============================================
+                        Header
+    ================================================ */
+    header {
+        display: flex;
+        height: 3rem;
+        justify-content: space-between;
+        align-items: center;
+        /* border: solid red; */
+    }
+    
+    .logo_div {
+        display: flex;
+        gap: 0.4rem;
+        width: 9rem;
+        height: 100%;
+        align-items: center;
+        /* border: solid red; */
+    }
+    
+    .logo_div p {
+        color: var(--primary-color);
+        font-size: 1.125rem;
+        font-weight: 500;
+    }
+    
+    .bookmark_icon {
+        height: 52%;
+        width: 1.4rem;
+        text-align: center;
+        align-content: center;
+        border-radius: 50%;
+        background-color: hsl(231, 69%, 60%);
+    }
+    
+    .bookIcon {
+        color: #fff;
+        font-size: 0.7rem;
+    }
+    
+    .header_list {
+        width: 35rem;
+        height: 100%;
+        /* border: solid red; */
+    }
+    
+    .header_list ul {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        list-style: none;
+        /* border: solid green; */
+    }
+    
+    li {
+        color: var(--primary-color);
+        padding: 0.4rem 1.1rem 0.4rem 1.1rem;
+        /* border: solid red; */
+    }
+    
+    li:hover {
+        color: var(--hoverActive-color);
+    }
+    
+    
+    /* =============================================
+                        Main
+    ================================================ */
+    main {
+        margin-top: 7rem;
+    }
+
+    .simple_bookmark_section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .manager_head {
+        color: hsl(229, 31%, 21%);
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .simple_article_div {
+        margin: 1.3rem 0rem;
+    }
+
+    article {
+        color: var(--article-color);
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .browser_btn {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .get_btn {
+        color: var(--primary-color);
+        padding: 0.7rem 1.5rem;
+        border-radius: 0.4rem;
+        border: 0.1rem solid hsl(229, 31%, 21%);
+        background-color: #fff;
+    }
+
+    .get_btn:hover {
+        color: var(--grayish-blue);
+        border: 0.1rem solid hsl(231, 69%, 60%);
+    }
+
+    .blue_image_div {
+        position: relative;
+        right: -7.3rem;
+        top: 2.5rem;
+        /* width: 27rem; */
+        width: 35rem;
+        height: 18rem;
+        border-top-left-radius: 35%;
+        border-bottom-left-radius: 35%;
+        background-color: var(--grayish-blue);
+    }
+
+    .blue_image_div img {
+        position: absolute;
+        top: -7rem;
+        left: -14rem;
+        width: 100%;
+        /* display: none; */
+    }
+
+    /* ================= features section ============ */
+    .features_section {
+        margin-top: 5rem;
+        /* border: solid red; */
+    }
+
+    .feature_article {
+        text-align: center;
+    }
+
+    .headings {
+        color: var(--primary-color);
+        font-size: var(--headings-fonts);
+        font-weight: 700;
+    }
+
+    .easy_speed_div {
+        display: flex;
+        width: 37rem;
+        gap: 2rem;
+        margin: 0rem auto;
+        justify-content: center;
+        border-bottom: 0.1rem solid black;
+    }
+
+    .easy_btn {
+        color: var(--article-color);
+        padding: 0.7rem 1.5rem;
+        border: none;
+        background-color: #fff;
+    }
+
+    .easy_btn:hover {
+        color: var(--hoverActive-color);
+    }
+
+    .easy_active {
+        color: var(--primary-color);
+        border-bottom: 0.2rem solid var(--hoverActive-color);
+        border-right: 0rem;
+        border-left: 0rem;
+    }
+
+    .more_btn button{
+        color: #fff;
+        border: none;
+        font-size: 0.7rem;
+        padding: 0.7rem 1rem;
+        border-radius: 0.2rem;
+        background-color: var(--grayish-blue);
+    }
+
+    .section3 {
+        margin-top: 7rem;
+        /* border: solid red; */
+    }
+
+    .blue_image_div2 {
+        position: relative;
+        left: -7.4rem;
+        top: 2.5rem;
+        width: 35rem;
+        height: 18rem;
+        border-top-right-radius: 35%;
+        border-bottom-right-radius: 35%;
+        background-color: var(--grayish-blue);
+        /* border: solid blue; */
+    }
+
+    .blue_image_div2 img {
+        position: absolute;
+        top: -7rem;
+        right: -14rem;
+        width: 100%;
+        /* display: none; */
+    }
+
+    .heading_button_div2 {
+        margin: 1.3rem 9rem 0rem 0rem;
+        /* border: 2px solid black; */
+    }
+
+    /* ================= downloader section ================ */
+    .downloader_section {
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+        /* border: solid red; */
+    }
+
+    .browser_div {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        /* border: solid red; */
+    }
+
+    .add_btn_div {
+        width: 12rem;
+        height: 15.5rem;
+        padding: 2rem 0rem;
+        text-align: center;
+        box-shadow: 3rem 3rem 5rem (0,0,0,0.1);
+        border: solid red;
+    }
+
+    .add_extension_div img {
+        width: 4rem;
+    }
+
+    .bold_browser_name {
+        color: var(--primary-color);
+        font-size: 1rem;
+        font-weight: 900;
+        margin: 1rem 0rem 0.4rem 0rem;
+    }
+
+    .version_font {
+        font-size: 0.73rem;
+        font-weight: 500;
+        color: var(--article-color);
+    }
+
+    hr {
+        margin: 1.5rem 0rem 1rem 0rem;
+        border: dotted var(--article-color);
+    }
+
+    .install_btn {
+        color: #fff;
+        border: none;
+        font-size: 0.7rem;
+        font-weight: 500;
+        padding: 0.6rem 1.2rem;
+        border-radius: 0.2rem;
+        background-color: var(--grayish-blue);
+    }
+}
