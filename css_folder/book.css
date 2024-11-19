@@ -148,20 +148,44 @@
 
     .browser_btn {
         display: flex;
-        gap: 2rem;
+        gap: 1rem;
+        width: 72.2%;
+        height: 2.6rem;
     }
 
-    .get_btn {
-        color: var(--primary-color);
-        padding: 0.7rem 1.5rem;
+    .chrome_btn {
+        color: #fff;
+        border: none;
+        width: 9rem;
+        height: 100%;
+        padding: 0.7rem 0rem;
         border-radius: 0.4rem;
-        border: 0.1rem solid hsl(229, 31%, 21%);
-        background-color: #fff;
+        background-color: var(--grayish-blue);
     }
 
-    .get_btn:hover {
+    .chrome_btn:hover {
         color: var(--grayish-blue);
+        background-color: #fff;
         border: 0.1rem solid hsl(231, 69%, 60%);
+        cursor: pointer;
+    }
+
+    .firefox_btn {
+        color: var(--primary-color);
+        background-color: #fff;
+        border-radius: 0.4rem;
+        width: 9rem;
+        height: 100%;
+        padding: 0.7rem 0rem;
+        border: none;
+        color: var(--primary-color);
+        box-shadow: 0.2rem 0.3rem 0.7rem hsl(231, 69%, 60%, 0.2);
+    }
+
+    .firefox_btn:hover {
+        color: var(--primary-color);
+        border: 0.1rem solid var(--primary-color);
+        cursor: pointer;
     }
 
     .blue_image_div {
@@ -415,21 +439,23 @@
         display: flex;
         gap: 0.6rem;
         width: 24rem;
+        height: 2.2rem;
         margin: 0rem auto;
         justify-content: center;
+        /* border: solid red; */
     }
 
     .customer_email {
         width: 65%;
+        height: 100%;
         border-radius: 0.2rem;
     }
 
     .contact_div {
-        width: 26.5%;
         text-align: start;
     }
 
-    .customer_care_btn input {
+    .customer_email input {
         width: 100%;
         padding: 0rem 0.7rem;
         height: 100%;
@@ -440,11 +466,19 @@
 
     .contact_btn {
         font-size: 0.7rem;
-        padding: 0.6rem 1.3rem;
+        padding: 0rem 1.3rem;
         border: none;
         color: #fff;
+        height: 100%;
         border-radius: 0.2rem;
         background-color: var(--hoverActive-color);
+    }
+
+    .contact_btn:hover {
+        color: var(--hoverActive-color);
+        background-color: #fff;
+        cursor: pointer;
+        border: 0.1rem solid var(--hoverActive-color);
     }
 
     .bookmark_footer {
