@@ -13,174 +13,322 @@
 
     <!-- ionicon link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ionicons/7.4.0/esm/ionicons.min.js" integrity="sha512-heZj7rPbZHWyOEhE34vsJkzj2DKK2mZ9D3jjMkXQJ0uMGu/m5iOty+le26NL1eFZ5+qa4XBYcflwYwITwCWufw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- boxicon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <!-- <div class="body_wrapper"> -->
-    <header>
-        <section class="logo_div">
-            <div class="bookmark_icon">
-                <ion-icon name="bookmark" class="bookIcon"></ion-icon>
-            </div>
-            <p>
-                BOOKMARK
-            </p>
-        </section>
-        <section class="header_list">
-            <ul>
-                <li>FEATURES</li>
-                <li>PRICING</li>
-                <li>CONTACT</li>
-                <li>LOGIN</li>
-            </ul>
-        </section>
-    </header>
-
-
-    <main>
-        <section class="simple_bookmark_section">
-            <div class="heading_button_div">
-                <div>
-                    <p class="manager_head">
-                        A Simple Bookmark <br> Manager
-                    </p>
+    <div class="body_wrapper">
+        <header>
+            <section class="logo_div">
+                <div class="bookmark_icon">
+                    <ion-icon name="bookmark" class="bookIcon"></ion-icon>
                 </div>
-                <div class="simple_article_div">
-                    <article>
-                        A clean and simple interface to organize your favourite <br>
-                        websites. Open a new browser tab and see your sites load <br> instantly. Try it for free
-                    </article>
-                </div>
-                <div class="browser_btn">
-                    <button  class="get_btn">
-                        Get it on Chrome
-                    </button>
+                <p>
+                    BOOKMARK
+                </p>
+            </section>
+            <section class="header_list">
+                <ul>
+                    <li class="same_link">
+                        <a href="#">FEATURES</a>
+                    </li>
+                    <li class="same_link">
+                        <a href="#">PRICING</a>
+                    </li>
+                    <li class="same_link">
+                        <a href="#">CONTACT</a>
+                    </li>
+                    <li class="login_btn">
+                        <a href="#">LOGIN</a>
+                    </li>
+                </ul>
+            </section>
+        </header>
 
-                    <button class="get_btn">
-                        Get it on Firefox
-                    </button>
-                </div>
-            </div>
-            <div class="blue_image_div">
-                <img src="/images/illustration-hero.svg" alt="illustration_image">
-            </div>
-        </section>
 
-        <section class="features_section">
-            <div class="feature_article">
+        <main>
+            <section class="simple_bookmark_section">
+                <div class="heading_button_div">
+                    <div>
+                        <p class="manager_head">
+                            A Simple Bookmark <br> Manager
+                        </p>
+                    </div>
+                    <div class="simple_article_div">
+                        <article>
+                            A clean and simple interface to organize your favourite <br>
+                            websites. Open a new browser tab and see your sites load <br> instantly. Try it for free
+                        </article>
+                    </div>
+                    <div class="browser_btn">
+                        <button  class="get_btn">
+                            Get it on Chrome
+                        </button>
+
+                        <button class="get_btn">
+                            Get it on Firefox
+                        </button>
+                    </div>
+                </div>
+                <div class="blue_image_div">
+                    <img src="/images/illustration-hero.svg" alt="illustration_image">
+                </div>
+            </section>
+
+            <section class="features_section">
+                <div class="feature_article">
+                    <div>
+                        <p class="headings">
+                            Features
+                        </p>
+                    </div>
+                    <div class="simple_article_div">
+                        <article>
+                            Our aim is to make it quick and easy for you to access your <br> 
+                            favourite websites. Your bookmarks sync between your devices <br> 
+                            so you access them on the go.
+                        </article>
+                    </div>
+                    <div class="easy_speed_div">
+                        <button class="easy_btn easy_active">
+                            Simple Bookmarking
+                        </button>
+                        <button class="easy_btn">
+                            Speedy Searching
+                        </button>
+                        <button class="easy_btn">
+                            Easy Sharing
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="simple_bookmark_section2">
+                <div class="blue_image_div2">
+                    <img src="/images/illustration-hero.svg" alt="illustration_image">
+                </div>
+                <div class="heading_button_div2">
+                    <div>
+                        <p class="headings">
+                            Bookmark in one click
+                        </p>
+                    </div>
+                    <div class="simple_article_div">
+                        <article>
+                            Organize your bookmarks however you like. Our <br>
+                            simple drag-and-drop interface gives you complete <br>
+                            control over how you manage your favourite site.
+                        </article>
+                    </div>
+                    <div class="more_btn">
+                        <button>
+                            More Info
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="downloader_section">
+                <div class="feature_article">
+                    <div>
+                        <p class="headings">
+                            Download the extension
+                        </p>
+                    </div>
+                    <div class="simple_article_div">
+                        <article>
+                            We have got more browser in the pipeline. Please let us know <br> if you have gotten a favourite you'd like us to prioritize.
+                        </article>
+                    </div>
+                </div>
+                <div class="browser_div">
+                    <div class="add_btn_div">
+                        <div class="add_extension_div">
+                            <img src="/images/logo-chrome.svg" alt="chrome_image">
+                            <p class="bold_browser_name">
+                                Add to Chrome
+                            </p>
+                            <p class="version_font">
+                                Minimum version 62
+                            </p>
+                        </div>
+                        <hr>
+                        <button class="install_btn">
+                            Add & Install Extension
+                        </button>
+                    </div>
+                    <div class="add_btn_div firefox_div">
+                        <div class="add_extension_div">
+                            <img src="/images/logo-firefox.svg" alt="firefox_image">
+                            <p class="bold_browser_name">
+                                Add to Firefox
+                            </p>
+                            <p class="version_font">
+                                Minimum version 55
+                            </p>
+                        </div>
+                        <hr>
+                        <button class="install_btn">
+                            Add & Install Extension
+                        </button>
+                    </div>
+                    <div class="add_btn_div opera_div">
+                        <div class="add_extension_div">
+                            <img src="/images/logo-opera.svg" alt="opera_image">
+                            <p class="bold_browser_name">
+                                Add to Opera
+                            </p>
+                            <p class="version_font">
+                                Minimum version 46
+                            </p>
+                        </div>
+                        <hr>
+                        <button class="install_btn">
+                            Add & Install Extension
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="question_div">
                 <div>
                     <p class="headings">
-                        Features
+                        Frequently Asked Questions
                     </p>
-                </div>
-                <div class="simple_article_div">
-                    <article>
-                        Our aim is to make it quick and easy for you to access your <br> 
-                        favourite websites. Your bookmarks sync between your devices <br> 
-                        so you access them on the go.
+                    <article class="faq_div">
+                        Here are some of our FAQs. If you have any other questions <br> you'd like answered please feel free to email us.
                     </article>
                 </div>
-                <div class="easy_speed_div">
-                    <button class="easy_btn easy_active">
-                        Simple Bookmarking
-                    </button>
-                    <button class="easy_btn">
-                        Speedy Searching
-                    </button>
-                    <button class="easy_btn">
-                        Easy Sharing
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <section class="simple_bookmark_section section3">
-            <div class="blue_image_div2">
-                <img src="/images/illustration-hero.svg" alt="illustration_image">
-            </div>
-            <div class="heading_button_div2">
-                <div>
-                    <p class="headings">
-                        Bookmark in one click
-                    </p>
-                </div>
-                <div class="simple_article_div">
-                    <article>
-                        Organize your bookmarks however you like. Our <br>
-                        simple drag-and-drop interface gives you complete <br>
-                        control over how you manage your favourite site.
-                    </article>
+                <div class="question_information_div">
+                    <div class="title_arrow first_question">
+                        <div class="normal_article_div">
+                            <div class="normal_question">
+                                What is Bookmark?
+                            </div>
+                            <div class="arrow_div">
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <article class="question_article">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus inci<br> incidunt, laboriosam, omnis eligendi officiis 
+                            vitae ipsa nemo labore possimus iste commodi aut. Eaque nam, aspernatur nobis laudantium accusantium fuga. Sepossimus iste commodi aut. Eaque 
+                            nam, aspernatur nobis ipsa nemo labore possimus iste commodi aut. 
+                            Eaque nam, aspernatur nobis laudantium accusantium fuga laudantium accusantiumd ipsa nemo labore possimus iste commodi aut. aspernatur nobis laudantium accusantium fuga
+                        </article>
+                    </div>
+                    <div class="title_arrow">
+                        <div class="normal_article_div">
+                            <div class="normal_question">
+                                How can i request a new browser?
+                            </div>
+                            <div class="arrow_div">
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <article class="question_article">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus inci<br> incidunt, laboriosam, omnis eligendi officiis 
+                            vitae ipsa nemo labore possimus iste commodi aut. Eaque nam, aspernatur nobis laudantium accusantium fuga. Sepossimus iste commodi aut. Eaque 
+                            nam, aspernatur nobis ipsa nemo labore possimus iste commodi aut. 
+                            Eaque nam, aspernatur nobis laudantium accusantium fuga laudantium accusantiumd ipsa nemo labore possimus iste commodi aut. aspernatur nobis laudantium accusantium fuga
+                        </article>
+                    </div>
+                    <div class="title_arrow">
+                        <div class="normal_article_div">
+                            <div class="normal_question">
+                                Is there a mobile app?
+                            </div>
+                            <div class="arrow_div">
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <article class="question_article">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus inci<br> incidunt, laboriosam, omnis eligendi officiis 
+                            vitae ipsa nemo labore possimus iste commodi aut. Eaque nam, aspernatur nobis laudantium accusantium fuga. Sepossimus iste commodi aut. Eaque 
+                            nam, aspernatur nobis ipsa nemo labore possimus iste commodi aut. 
+                            Eaque nam, aspernatur nobis laudantium accusantium fuga laudantium accusantiumd ipsa nemo labore possimus iste commodi aut. aspernatur nobis laudantium accusantium fuga
+                        </article>
+                    </div>
+                    <div class="title_arrow">
+                        <div class="normal_article_div">
+                            <div class="normal_question">
+                                What about other Chromium browsers?
+                            </div>
+                            <div class="arrow_div">
+                                <ion-icon name="chevron-down-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <article class="question_article">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus inci<br> incidunt, laboriosam, omnis eligendi officiis 
+                            vitae ipsa nemo labore possimus iste commodi aut. Eaque nam, aspernatur nobis laudantium accusantium fuga. Sepossimus iste commodi aut. Eaque 
+                            nam, aspernatur nobis ipsa nemo labore possimus iste commodi aut. 
+                            Eaque nam, aspernatur nobis laudantium accusantium fuga laudantium accusantiumd ipsa nemo labore possimus iste commodi aut. aspernatur nobis laudantium accusantium fuga
+                        </article>
+                    </div>
                 </div>
                 <div class="more_btn">
                     <button>
                         More Info
                     </button>
                 </div>
-            </div>
-        </section>
-
-        <section class="downloader_section">
-            <div class="feature_article">
-                <div>
-                    <p class="headings">
-                        Download the extension
+            </section>
+        </main>
+        <footer>
+            <div class="stay_connected_div">
+                <div class="number_of_customer">
+                    <p>
+                        35,000+ ALREADY JOINED
                     </p>
                 </div>
-                <div class="simple_article_div">
-                    <article>
-                        We have got more browser in the pipeline. Please let us know <br> if you have gotten a favourite you'd like us to prioritize.
-                    </article>
+                <div class="stay_div">
+                    Stay up-to-date with what <br> we're doing
+                </div>
+                <div class="customer_care_btn">
+                    <div class="customer_email">
+                        <input type="email" placeholder="Enter your email address">
+                    </div>
+                    <div class="contact_div">
+                        <button class="contact_btn">
+                            Contact Us
+                        </button>
+                    </div>
                 </div>
             </div>
-            <div class="browser_div">
-                <div class="add_btn_div">
-                    <div class="add_extension_div">
-                        <img src="/images/logo-chrome.svg" alt="chrome_image">
-                        <p class="bold_browser_name">
-                            Add to Chrome
-                        </p>
-                        <p class="version_font">
-                            Minimum version 62
-                        </p>
+            <div class="bookmark_footer">
+                <div class="book_footer">
+                    <div class="bookmark_pages_div">
+                        <div class="logo_div2">
+                            <div class="bookmark_icon2">
+                                <ion-icon name="bookmark" class="bookIcon"></ion-icon>
+                            </div>
+                            <p>
+                                BOOKMARK
+                            </p>
+                        </div>
+                        <div class="pages_link">
+                            <div>
+                                <a href="#">FEATURES</a>
+                            </div>
+                            <div>
+                                <a href="#">PRICING</a>
+                            </div>
+                            <div>
+                                <a href="#">CONTACT</a>
+                            </div>
+                        </div>
                     </div>
-                    <hr>
-                    <button class="install_btn">
-                        Add & Install Extension
-                    </button>
-                </div>
-                <div class="add_btn_div">
-                    <div class="add_extension_div">
-                        <img src="/images/logo-firefox.svg" alt="firefox_image">
-                        <p class="bold_browser_name">
-                            Add to Firefox
-                        </p>
-                        <p class="version_font">
-                            Minimum version 55
-                        </p>
+                    <div class="social_div">
+                        <div>
+                            <i class='bx bxl-facebook-square'></i>
+                        </div>
+                        <div>
+                            <i class='bx bxl-twitter'></i>
+                        </div>
                     </div>
-                    <hr>
-                    <button class="install_btn">
-                        Add & Install Extension
-                    </button>
-                </div>
-                <div class="add_btn_div">
-                    <div class="add_extension_div">
-                        <img src="/images/logo-opera.svg" alt="opera_image">
-                        <p class="bold_browser_name">
-                            Add to Opera
-                        </p>
-                        <p class="version_font">
-                            Minimum version 46
-                        </p>
-                    </div>
-                    <hr>
-                    <button class="install_btn">
-                        Add & Install Extension
-                    </button>
                 </div>
             </div>
-        </section>
-    </main>
-    <!-- </div> -->
+        </footer>
+    </div>
 
 
 

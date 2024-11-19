@@ -17,12 +17,11 @@
         font-family: "Rubik", serif;
     }
     
-    body {
+    .body_wrapper {
         min-height: 100vh;
         font-size: 0.875rem;
         overflow-x: hidden;
-        margin: 2rem 7rem 0rem 7rem;
-        /* border: 0.3rem solid black; */
+        margin: 2rem 0rem 0rem 0rem;
     }
     
     /* =============================================
@@ -33,7 +32,7 @@
         height: 3rem;
         justify-content: space-between;
         align-items: center;
-        /* border: solid red; */
+        margin: 0rem 7rem;
     }
     
     .logo_div {
@@ -42,7 +41,6 @@
         width: 9rem;
         height: 100%;
         align-items: center;
-        /* border: solid red; */
     }
     
     .logo_div p {
@@ -52,7 +50,7 @@
     }
     
     .bookmark_icon {
-        height: 52%;
+        height: 45%;
         width: 1.4rem;
         text-align: center;
         align-content: center;
@@ -68,7 +66,6 @@
     .header_list {
         width: 35rem;
         height: 100%;
-        /* border: solid red; */
     }
     
     .header_list ul {
@@ -78,16 +75,44 @@
         justify-content: center;
         gap: 3rem;
         list-style: none;
-        /* border: solid green; */
     }
     
-    li {
+    .same_link a {
         color: var(--primary-color);
+        font-size: 0.7rem;
         padding: 0.4rem 1.1rem 0.4rem 1.1rem;
-        /* border: solid red; */
+    }
+
+    .login_btn {
+        color: #fff;
+        width: 5rem;
+        font-size: 0.7rem;
+        text-align: center;
+        border-radius: 0.2rem;
+        padding: 0.4rem 0rem 0.4rem 0rem;
+        background-color: var(--hoverActive-color);
+    }
+
+    .login_btn a {
+        color: #fff;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--primary-color);
     }
     
-    li:hover {
+    a:hover {
+        color: var(--hoverActive-color);
+    }
+
+    .login_btn:hover {
+        background-color: #fff;
+        color: var(--hoverActive-color);
+        border: 0.1rem solid var(--hoverActive-color);
+    }
+
+    .login_btn:hover a {
         color: var(--hoverActive-color);
     }
     
@@ -101,6 +126,7 @@
 
     .simple_bookmark_section {
         display: flex;
+        margin: 0rem 0rem 0rem 7rem;
         justify-content: space-between;
     }
 
@@ -142,7 +168,6 @@
         position: relative;
         right: -7.3rem;
         top: 2.5rem;
-        /* width: 27rem; */
         width: 35rem;
         height: 18rem;
         border-top-left-radius: 35%;
@@ -155,13 +180,11 @@
         top: -7rem;
         left: -14rem;
         width: 100%;
-        /* display: none; */
     }
 
     /* ================= features section ============ */
     .features_section {
-        margin-top: 5rem;
-        /* border: solid red; */
+        margin: 5rem 7rem 0rem 7rem;
     }
 
     .feature_article {
@@ -171,7 +194,7 @@
     .headings {
         color: var(--primary-color);
         font-size: var(--headings-fonts);
-        font-weight: 700;
+        font-weight: 500;
     }
 
     .easy_speed_div {
@@ -180,7 +203,7 @@
         gap: 2rem;
         margin: 0rem auto;
         justify-content: center;
-        border-bottom: 0.1rem solid black;
+        border-bottom: 0.1rem solid var(--grayish-blue);
     }
 
     .easy_btn {
@@ -210,9 +233,11 @@
         background-color: var(--grayish-blue);
     }
 
-    .section3 {
-        margin-top: 7rem;
-        /* border: solid red; */
+    /* ============== section 3 ================ */
+    .simple_bookmark_section2 {
+        display: flex;
+        margin: 7rem 7rem 0rem 0rem;
+        justify-content: space-between;
     }
 
     .blue_image_div2 {
@@ -224,7 +249,6 @@
         border-top-right-radius: 35%;
         border-bottom-right-radius: 35%;
         background-color: var(--grayish-blue);
-        /* border: solid blue; */
     }
 
     .blue_image_div2 img {
@@ -232,35 +256,30 @@
         top: -7rem;
         right: -14rem;
         width: 100%;
-        /* display: none; */
     }
 
     .heading_button_div2 {
         margin: 1.3rem 9rem 0rem 0rem;
-        /* border: 2px solid black; */
     }
 
     /* ================= downloader section ================ */
     .downloader_section {
-        margin-top: 8rem;
-        margin-bottom: 8rem;
-        /* border: solid red; */
+        margin: 8rem 7rem 8rem 7rem;
     }
 
     .browser_div {
         display: flex;
-        gap: 2rem;
+        gap: 1.5rem;
         justify-content: center;
-        /* border: solid red; */
     }
 
     .add_btn_div {
-        width: 12rem;
+        width: 12.5rem;
         height: 15.5rem;
         padding: 2rem 0rem;
         text-align: center;
-        box-shadow: 3rem 3rem 5rem (0,0,0,0.1);
-        border: solid red;
+        border-radius: 0.8rem;
+        box-shadow: 0rem 0.4rem 1rem -0.3rem hsl(231, 69%, 60%, 0.2);
     }
 
     .add_extension_div img {
@@ -270,13 +289,13 @@
     .bold_browser_name {
         color: var(--primary-color);
         font-size: 1rem;
-        font-weight: 900;
+        font-weight: 600;
         margin: 1rem 0rem 0.4rem 0rem;
     }
 
     .version_font {
         font-size: 0.73rem;
-        font-weight: 500;
+        font-weight: 400;
         color: var(--article-color);
     }
 
@@ -293,5 +312,196 @@
         padding: 0.6rem 1.2rem;
         border-radius: 0.2rem;
         background-color: var(--grayish-blue);
+    }
+
+    .firefox_div {
+        margin-top: 2rem;
+    }
+
+    .opera_div {
+        margin-top: 4rem;
+    }
+
+    /* ================ question section ================= */
+    .question_div {
+        text-align: center;
+        margin: 0rem 7rem 5rem 7rem;
+    }
+
+    .faq_div {
+        margin: 1.3rem 0rem;
+    }
+
+    .question_information_div {
+        width: 28rem;
+        margin: 3rem auto 2.5rem auto;
+    }
+
+    .normal_article_div {
+        display: flex;
+        height: 3rem;
+        align-items: center;
+        font-weight: 500;
+        justify-content: space-between;
+        padding: 0rem 1rem 0rem 0rem;
+    }
+
+    .title_arrow {
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid var(--article-color);
+    }
+
+    .first_question {
+        border-top: 1px solid var(--article-color);
+    }
+
+    .normal_question {
+        color: var(--primary-color);
+    }
+
+    .normal_question:hover {
+        color: var(--hoverActive-color);
+        cursor: pointer;
+    }
+
+    .arrow_div {
+        color: var(--grayish-blue);
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    .question_article {
+        font-size: 0.73rem;
+        text-align: start;
+        margin-bottom: 1rem;
+        display: none;
+    }
+
+    /* ============== footer ============= */
+    footer {
+        align-content: center;
+        width: 100%;
+        color: #fff;
+    }
+
+    .stay_connected_div {
+        margin: auto auto;
+        text-align: center;
+        height: 17rem;
+        align-content: center;
+        background-color: var(--grayish-blue);
+    }
+
+    .number_of_customer {
+        font-size: 0.6rem;
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+    }
+
+    .stay_div {
+        font-size: var(--headings-fonts);
+        font-weight: 500;
+        margin: 1.5rem 0rem;
+    }
+
+    .customer_care_btn {
+        display: flex;
+        gap: 0.6rem;
+        width: 24rem;
+        margin: 0rem auto;
+        justify-content: center;
+    }
+
+    .customer_email {
+        width: 65%;
+        border-radius: 0.2rem;
+    }
+
+    .contact_div {
+        width: 26.5%;
+        text-align: start;
+    }
+
+    .customer_care_btn input {
+        width: 100%;
+        padding: 0rem 0.7rem;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 0.2rem;
+    }
+
+    .contact_btn {
+        font-size: 0.7rem;
+        padding: 0.6rem 1.3rem;
+        border: none;
+        color: #fff;
+        border-radius: 0.2rem;
+        background-color: var(--hoverActive-color);
+    }
+
+    .bookmark_footer {
+        height: 3.9rem;
+        align-content: center;
+        color: #fff;
+        background-color: var(--primary-color);
+    }
+
+    .book_footer {
+        display: flex;
+        color: #fff;
+        height: 3rem;
+        justify-content: space-between;
+        margin: 0rem 7rem 0rem 7rem;
+    }
+
+    .bookmark_pages_div {
+        display: flex;
+        gap: 2.5rem;
+        align-items: center;
+    }
+
+    .logo_div2 {
+        display: flex;
+        gap: 0.4rem;
+        width: 9rem;
+        height: 100%;
+        align-items: center;
+    }
+
+    .bookmark_icon2 {
+        height: 1%;
+        width: 1.3rem;
+        text-align: center;
+        height: 50%;
+        align-content: center;
+        border-radius: 50%;
+        background-color: hsl(231, 69%, 60%);
+    }
+
+    .pages_link {
+        display: flex;
+        gap: 3rem;
+        font-size: 0.7rem;
+    }
+
+    .pages_link a {
+        color: #fff;
+    }
+
+    .pages_link a:hover {
+        color: var(--hoverActive-color);
+    }
+
+    .social_div {
+        display: flex;
+        gap: 1.2rem;
+        font-size: 1.4rem;
+        align-items: center;
+    }
+
+    .social_div i:hover {
+        color: var(--hoverActive-color);
     }
 }
