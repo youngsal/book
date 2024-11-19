@@ -203,12 +203,11 @@
         gap: 2rem;
         margin: 0rem auto;
         justify-content: center;
-        border-bottom: 0.1rem solid var(--grayish-blue);
     }
 
     .easy_btn {
         color: var(--article-color);
-        padding: 0.7rem 1.5rem;
+        padding: 0.7rem 1.9rem;
         border: none;
         background-color: #fff;
     }
@@ -222,6 +221,13 @@
         border-bottom: 0.2rem solid var(--hoverActive-color);
         border-right: 0rem;
         border-left: 0rem;
+    }
+
+    .easy_hr {
+        width: 36.4rem;
+        margin-top: -0.1rem;
+        margin: 0rem auto 0rem auto;
+        border: 0.1px solid var(--article-color);
     }
 
     .more_btn button{
