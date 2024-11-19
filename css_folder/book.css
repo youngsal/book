@@ -87,6 +87,7 @@
         color: #fff;
         width: 5rem;
         font-size: 0.7rem;
+        transition: 0.3s;
         text-align: center;
         border-radius: 0.2rem;
         padding: 0.4rem 0rem 0.4rem 0rem;
@@ -160,6 +161,7 @@
         height: 100%;
         padding: 0.7rem 0rem;
         border-radius: 0.4rem;
+        transition: 0.3s;
         background-color: var(--grayish-blue);
     }
 
@@ -178,6 +180,7 @@
         height: 100%;
         padding: 0.7rem 0rem;
         border: none;
+        transition: 0.3s;
         color: var(--primary-color);
         box-shadow: 0.2rem 0.3rem 0.7rem hsl(231, 69%, 60%, 0.2);
     }
@@ -337,11 +340,21 @@
     .install_btn {
         color: #fff;
         border: none;
+        height: 2rem;
         font-size: 0.7rem;
         font-weight: 500;
         padding: 0.6rem 1.2rem;
         border-radius: 0.2rem;
         background-color: var(--grayish-blue);
+    }
+
+
+
+    .install_btn:hover {
+        color: var(--grayish-blue);
+        background-color: #fff;
+        transition: 0.3s;
+        border: 0.1rem solid var(--grayish-blue);
     }
 
     .firefox_div {
@@ -470,6 +483,7 @@
         border: none;
         color: #fff;
         height: 100%;
+        transition: 0.3s;
         border-radius: 0.2rem;
         background-color: var(--hoverActive-color);
     }
