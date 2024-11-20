@@ -195,8 +195,8 @@
         position: relative;
         right: -7.3rem;
         top: 2.5rem;
-        width: 35rem;
-        height: 18rem;
+        width: 43rem;
+        height: 20rem;
         border-top-left-radius: 35%;
         border-bottom-left-radius: 35%;
         background-color: var(--grayish-blue);
@@ -206,7 +206,7 @@
         position: absolute;
         top: -7rem;
         left: -14rem;
-        width: 100%;
+        width: 80%;
     }
 
     /* ================= features section ============ */
@@ -268,27 +268,50 @@
 
     /* ============== section 3 ================ */
     .simple_bookmark_section2 {
-        display: flex;
-        margin: 7rem 7rem 0rem 0rem;
+        margin: 8rem 7rem 0rem 0rem;
+    }
+
+    .easy_tab {
+        display: none;
+        flex-direction: row;
         justify-content: space-between;
     }
+
+    .active_tab {
+        display: flex;
+    }
+    
 
     .blue_image_div2 {
         position: relative;
         left: -7.4rem;
         top: 2.5rem;
-        width: 35rem;
-        height: 18rem;
+        width: 43rem;
+        height: 20rem;
         border-top-right-radius: 35%;
         border-bottom-right-radius: 35%;
         background-color: var(--grayish-blue);
     }
 
-    .blue_image_div2 img {
+    .tab_img {
         position: absolute;
         top: -7rem;
-        right: -14rem;
-        width: 100%;
+        right: -10rem;
+        width: 80%;
+    }
+
+    .tab_image {
+        width: 68%;
+        position: absolute;
+        top: -7rem;
+        right: -8rem;
+    }
+
+    .tab_image3 {
+        width: 65%;
+        position: absolute;
+        top: -7rem;
+        right: -4rem;
     }
 
     .heading_button_div2 {
@@ -297,7 +320,7 @@
 
     /* ================= downloader section ================ */
     .downloader_section {
-        margin: 8rem 7rem 8rem 7rem;
+        margin: 10rem 7rem 8rem 7rem;
     }
 
     .browser_div {
