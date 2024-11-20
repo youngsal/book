@@ -1,16 +1,12 @@
 $(document).ready(function(){
-    // ======features easy
+    // ======features easy & tabs
     $(".easy_btn").click(function(){
-        $(".easy_btn").not($(this)).removeClass("easy_active");
-        $(this).toggleClass("easy_active");
-    });
+        const tabId = $(this).data("target");
+        $(".easy_btn").removeClass("easy_active"); //remove active on the tab heading
+        $(".easy_tab").removeClass("active_tab"); //remove active_tab on the tab content
 
-    // ========easy tabs
-    $(".easy_btn").click(function(){
-        const tabId = $(this).data("target"); // get the data value
-
-        $(".easy_tab").removeClass("active_tab").hide();
-        $(`#${tabId}`).addClass("active_tab").show();
+        $(this).toggleClass("easy_active"); //add active color on the tab heading
+        $(`#${tabId}`).addClass("active_tab"); //add active on the content
     });
 
     // ========downloader_Section
