@@ -421,6 +421,12 @@
         display: none;
     }
 
+    .rotate {
+        transform: rotate(180deg);
+        color: var(--hoverActive-color);
+        transition: transform 0.3s ease;
+    }
+
     /* ============== footer ============= */
     footer {
         align-content: center;
