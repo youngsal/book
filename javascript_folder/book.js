@@ -19,4 +19,13 @@ $(document).ready(function(){
         $(this).next(".question_article").slideToggle();
         $(this).find("ion-icon").toggleClass("rotate");
     });
+
+    // =================if open button is clicked and close button is clicked
+    $("#openBtn").click(function (){
+        $(".modal_content").fadeIn();
+    });
+    
+    $("#closeBtn").click(function (){
+        $(".modal_content").fadeOut();
+    });
 ;});
