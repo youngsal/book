@@ -591,14 +591,12 @@
 
 @media screen and (min-width: 375px) and (max-width: 599px) {
     body {
-        border: solid red;
         margin: 0rem;
     }
 
     header {
         margin: 0rem 1rem 0rem 1rem; 
         font-size: 0rem;
-        /* border: solid blue; */
     }
 
     .menu_list {
@@ -694,7 +692,6 @@
         width: 100%;
         gap: 0rem;
         flex-direction: column;
-        /* border: solid red; */
     }
 
     .easy_btn {
@@ -833,5 +830,42 @@
         width: 100%;
         height: 4rem;
         padding: 0rem 0rem;
+    }
+
+    .bookmark_footer {
+        height: 16rem;
+        align-content: start;
+    }
+
+    .book_footer {
+        gap: 1rem;
+        margin: 1.2rem 1rem 0rem 1rem;
+        flex-direction: column;
+    }
+
+    .bookmark_pages_div {
+        gap: 1rem;
+        flex-direction: column;
+    }
+
+    .bookmark_icon2 {
+        width: 1.5rem;
+    }
+
+    .pages_link {
+        gap: 2rem;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .logo_div2 {
+        gap: 0.4rem;
+        width: 7rem;
+        height: 3rem;
+        align-items: center;
+    }
+
+    .social_div {
+        justify-content: center;
     }
 }
