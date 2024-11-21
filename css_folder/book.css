@@ -7,16 +7,19 @@
     /* --headings-fonts: 1.125rem; */
     --headings-fonts: 1.5rem;
     --hoverActive-color: hsl(0, 94%, 66%);
+
+    /* ======= 375px =========== */
+    --small-screen-font: 1.2rem;
 }
 
-@media screen and (max-width: 1440px) {
-    * {
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-        font-family: "Rubik", serif;
-    }
-    
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Rubik", serif;
+}
+
+/* @media screen and (min-width: 600px) and (max-width: 1440px) { */
     .body_wrapper {
         min-height: 100vh;
         font-size: 0.875rem;
@@ -115,6 +118,10 @@
 
     .login_btn:hover a {
         color: var(--hoverActive-color);
+    }
+
+    .menu_list {
+        display: none;
     }
     
     
@@ -335,7 +342,7 @@
         padding: 2rem 0rem;
         text-align: center;
         border-radius: 0.8rem;
-        box-shadow: 0rem 0.4rem 1rem -0.3rem hsl(231, 69%, 60%, 0.2);
+        box-shadow: 0rem 0.6rem 1rem -0.3rem hsl(231, 69%, 60%, 0.2);
     }
 
     .add_extension_div img {
@@ -370,8 +377,6 @@
         border-radius: 0.2rem;
         background-color: var(--grayish-blue);
     }
-
-
 
     .install_btn:hover {
         color: var(--grayish-blue);
@@ -484,7 +489,6 @@
         height: 2.2rem;
         margin: 0rem auto;
         justify-content: center;
-        /* border: solid red; */
     }
 
     .customer_email {
@@ -586,5 +590,241 @@
 
     .social_div i:hover {
         color: var(--hoverActive-color);
+    }
+/* } */
+
+@media screen and (min-width: 375px) and (max-width: 599px) {
+    body {
+        border: solid red;
+        margin: 0rem;
+    }
+
+    header {
+        margin: 0rem 1rem 0rem 1rem; 
+        font-size: 0rem;
+        /* border: solid blue; */
+    }
+
+    .menu_list {
+        display: block;
+        font-size: 1.7rem;
+    }
+
+    .header_list {
+        display: none;
+    }
+
+    .bookmark_icon {
+        width: 1.3rem;
+    }
+
+    .logo_div p {
+        font-size: 1rem;
+    }
+
+    /* ==========================================
+                        Main
+    ============================================= */
+    main {
+        margin-top: 4rem;
+    }
+
+    .simple_bookmark_section {
+        flex-direction: column-reverse;
+        gap: 5rem;
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .blue_image_div {
+        right: -7rem;
+        width: 75%;
+        height: 10rem;
+    }
+
+    .blue_image_div img {
+        top: -2.8rem;
+        left: -5rem;
+        width: 110%;
+    }
+
+    .manager_head {
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: 480;
+    }
+
+    .simple_article_div {
+        margin: 1rem 0rem;
+    }
+
+    article {
+        text-align: center;
+        font-size: 0.72rem;
+        line-height: 1.2rem;
+    }
+
+    .browser_btn {
+        text-align: center;
+        margin: 0rem auto;
+        height: 2.1rem;
+        /* height: 0rem; */
+    }
+
+    .chrome_btn {
+        width: 10rem;
+        padding: 0rem 0rem;
+        font-size: 0.7rem;
+    }
+
+    .firefox_btn {
+        width: 10rem;
+        padding: 0rem 0rem;
+        font-size: 0.7rem;
+    }
+
+    /* ========== features section ========== */
+
+    .features_section {
+        margin: 8rem 1rem 0rem 1rem;
+    }
+
+    .headings {
+        font-size: var(--small-screen-font);
+    }
+
+    .easy_speed_div {
+        align-content: center;
+        text-align: center;
+        width: 100%;
+        gap: 0rem;
+        flex-direction: column;
+        /* border: solid red; */
+    }
+
+    .easy_btn {
+        border: 1px solid black;
+        text-align: center;
+        padding: 1rem 0rem;
+        border-right: none;
+        border-left: none;
+    }
+
+    .btn2 {
+        border: none;
+    }
+
+    .easy_hr {
+        display: none;
+    }
+
+    /* ================= section 3 ============== */
+    .simple_bookmark_section2 {
+        margin: 2.5rem 1rem 0rem 1rem;
+    }
+
+    .easy_tab {
+        flex-direction: column;
+    }
+
+    .heading_button_div2 {
+        text-align: center;
+        margin: 5rem 0rem 0rem 0rem;
+    }
+
+    .blue_image_div2 {
+        left: -1rem;
+        width: 73%;
+        height: 10rem;
+    }
+
+    .tab_img {
+        top: -2rem;
+        right: -4rem;
+        width: 110%;
+    }
+
+    .tab_image {
+        top: -2rem;
+        right: -2.5rem;
+        width: 85%;
+    }
+
+    .tab_image3 {
+        top: -2rem;
+        right: -2.5rem;
+        width: 85%;
+    }
+
+    .more_btn {
+        display: none;
+    }
+
+    /* ================= downloader section ================ */
+    .downloader_section {
+        margin: 8rem 1rem 8rem 1rem;
+    }
+
+    .browser_div {
+        gap: 2.4rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    hr {
+        margin: 1.5rem 0rem 1.3rem 0rem;
+    }
+
+    .add_btn_div {
+        height: 16rem;
+        box-shadow: 0rem 0.6rem 1rem -0.3rem hsl(231, 69%, 60%, 0.2);
+    }
+    
+    .firefox_div {
+        margin: 0rem;
+    }
+
+    .opera_div {
+        justify-content: center;
+        margin: 0rem;
+    }
+
+    /* ================ question section ================= */
+    .question_div {
+        margin: 0rem 1rem 0rem 1rem;
+    }
+
+    .question_information_div {
+        width: 100%;
+    }
+
+    .small_btn {
+        display: block;
+    }
+
+    /* ================ footer ===================== */
+    footer {
+        margin-top: 10rem;
+    }
+
+    .stay_connected_div {
+        margin: 0rem;
+    }
+
+    .customer_care_btn {
+        width: 100%;
+        height: 0rem;
+        align-items: center;
+        margin: 0rem;
+        flex-direction: column;
+        border: solid red;
+    }
+
+    .customer_email {
+        width: 100%;
+        border: solid black;
+    }
+
+    .customer_email input {
+        height: 4rem;
     }
 }
