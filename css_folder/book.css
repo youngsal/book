@@ -30,7 +30,7 @@
     /* =============================================
                         Header
     ================================================ */
-    header {
+    .section_head {
         display: flex;
         height: 3rem;
         justify-content: space-between;
@@ -589,12 +589,12 @@
     }
 /* } */
 
-@media screen and (min-width: 375px) and (max-width: 599px) {
+@media screen and (max-width: 599px) {
     body {
         margin: 0rem;
     }
 
-    header {
+    .section_head {
         margin: 0rem 1rem 0rem 1rem; 
         font-size: 0rem;
     }
@@ -603,17 +603,107 @@
         display: block;
         font-size: 1.7rem;
     }
-
-    .header_list {
-        display: none;
-    }
-
+    
     .bookmark_icon {
         width: 1.3rem;
     }
 
     .logo_div p {
         font-size: 1rem;
+    }
+
+    /* =========================================
+                    modal 
+    ============================================ */
+    .modal_content {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        color: #fff;
+        height: 100%;
+        z-index: 1000;
+    }
+
+    .modal_body {
+        display: absolute;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        padding: 1rem 0rem;
+        justify-content: space-between;
+        background-color: hsl(229, 31%, 21%, 0.9);
+    }
+
+    .section_header {
+        display: flex;
+        height: 3rem;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0rem 1rem;
+    }
+
+    .bookmark_icon {
+        background-color: #fff;
+    }
+
+    .bookIcon {
+        color: var(--primary-color);
+    }
+
+    .logo_div p {
+        color: #fff;
+    }
+
+    .menu_list_close {
+        display: block;
+        font-size: 1.7rem;
+    }
+
+    .header_list {
+        width: 91%;
+        margin: 2rem 1rem 0rem 1rem;
+    }
+
+    .header_list ul {
+        flex-direction: column;
+        gap: 0rem;
+        width: 100%;
+        align-items: center;
+        justify-content: start;
+        margin: 0rem auto;
+    }
+
+    .same_link {
+        width: 100%;
+        padding: 1rem 0rem;
+        text-align: center;
+        border: 0.1rem solid rgba(255, 255, 255, 0.2);
+        border-right: none;
+        border-left: none;
+    }
+
+    .same2 {
+        border: none;
+    }
+
+    .same_link a {
+        font-size: 0.9rem;
+        color: #fff;
+    }
+
+    .login_btn {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 0.8rem 0rem;
+        border: 0.1rem solid #fff;
+        background-color: inherit;
+    }
+
+    .login_btn a {
+        font-size: 0.9rem;
     }
 
     /* ==========================================
