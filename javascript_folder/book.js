@@ -23,11 +23,11 @@ $(document).ready(function(){
     // =================if open button is clicked and close button is clicked
     $("#openBtn").click(function (){
         $(".modal_content").fadeIn();
-        $(".section_head").hide();
+        $(".section_head").addClass("hide_head");
     });
     
     $("#closeBtn").click(function (){
         $(".modal_content").fadeOut();
-        $(".section_head").show();
+        $(".section_head").removeClass("hide_head");
     });
 ;});
