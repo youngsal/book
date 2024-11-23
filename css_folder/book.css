@@ -549,10 +549,17 @@
     }
 
     .logo_div2 {
+        height: 2.5rem;
+        text-align: center;
+        align
+    }
+
+    .logo_div2 a {
         display: flex;
         gap: 0.4rem;
         width: 9rem;
         height: 100%;
+        color: #fff;
         align-items: center;
     }
 
@@ -592,7 +599,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px){
     body {
         margin: 0rem;
     }
@@ -981,6 +988,48 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .simple_bookmark_section2 {
+        margin: 2.5rem 1rem 0rem 1rem;
+    }
+
+    .blue_image_div {
+        right: -7rem;
+        width: 75%;
+        height: 100rem;
+    }
+    
+    .blue_image_div img {
+        top: -2.8rem;
+        left: -5rem;
+        width: 110%;
+    }
+    
+    .blue_image_div2 {
+        left: -1rem;
+        width: 73%;
+        height: 10rem;
+    }
+    
+    .tab_img {
+        top: -2rem;
+        right: -4rem;
+        width: 110%;
+    }
+    
+    .tab_image {
+        top: -2rem;
+        right: -2.5rem;
+        width: 85%;
+    }
+    
+    .tab_image3 {
+        top: -2rem;
+        right: -2.5rem;
+        width: 85%;
+    }
+}
+
 @media screen and (max-width: 396px) {
     .tab_img {
         top: -2.5rem;
@@ -1002,7 +1051,6 @@
 }
 
 @media screen and (max-width: 450px) {
-    /* ================= section 3 ============== */
     .simple_bookmark_section2 {
         margin: 3.5rem 1rem 0rem 1rem;
     }
@@ -1074,7 +1122,7 @@
     }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 500px) {
     .simple_bookmark_section2 {
         margin: 3.8rem 1rem 0rem 1rem;
     }
@@ -1107,5 +1155,37 @@
         top: -3.5rem;
         right: -2.5rem;
         width: 68%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .blue_image_div {
+        right: -13rem;
+        width: 70%;
+        height: 10rem;
+    }
+
+    .blue_image_div img {
+        top: -2.8rem;
+        left: -5rem;
+        width: 85%;
+    }
+
+    .tab_img {
+        top: -3.5rem;
+        right: -4rem;
+        width: 80%;
+    }
+
+    .tab_image {
+        top: -3.5rem;
+        right: -2.5rem;
+        width: 60%;
+    }
+
+    .tab_image3 {
+        top: -3.5rem;
+        right: -2.5rem;
+        width: 60%;
     }
 }
