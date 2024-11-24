@@ -259,6 +259,7 @@
         border-bottom: 0.2rem solid var(--hoverActive-color);
         border-right: 0rem;
         border-left: 0rem;
+        color: var(--hoverActive-color);
     }
 
     .easy_hr {
@@ -599,7 +600,7 @@
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 768px){
     body {
         margin: 0rem;
     }
@@ -1158,34 +1159,64 @@
     }
 }
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 590px){
+    .simple_bookmark_section2 {
+        margin: 4rem 0rem 0rem 0rem;
+    }
+
     .blue_image_div {
         right: -13rem;
         width: 70%;
-        height: 10rem;
+        height: 11rem;
     }
 
     .blue_image_div img {
         top: -2.8rem;
         left: -5rem;
-        width: 85%;
+        width: 80%;
     }
 
     .tab_img {
         top: -3.5rem;
         right: -4rem;
-        width: 80%;
+        width: 70%;
     }
 
     .tab_image {
         top: -3.5rem;
         right: -2.5rem;
-        width: 60%;
+        width: 53%;
     }
 
     .tab_image3 {
         top: -3.5rem;
         right: -2.5rem;
-        width: 60%;
+        width: 53%;
+    }
+
+    .browser_btn {
+        justify-content: center;
+    }
+
+    .chrome_btn {
+        width: 8rem;
+    }
+
+    .firefox_btn {
+        width: 8rem;
+    }
+
+    .easy_speed_div {
+        width: 26rem;
+    }
+
+    .question_information_div {
+        width: 26rem;
+    }
+
+    .customer_care_btn {
+        width: 16rem;
     }
 }
+
+/* @media screen and (max-width: 55) */
