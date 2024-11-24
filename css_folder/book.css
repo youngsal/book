@@ -1219,4 +1219,59 @@
     }
 }
 
-/* @media screen and (max-width: 55) */
+@media screen and (max-width: 768px) {
+    .blue_image_div {
+        width: 25rem;
+        right: -20rem;
+    }
+
+    .blue_image_div {
+        right: -13rem;
+        width: 70%;
+        height: 11rem;
+    }
+
+    .blue_image_div img {
+        width: 80%;
+        top: -5rem;
+        left: -9rem;
+    }
+
+    .tab_img {
+        top: -3.5rem;
+        right: -4rem;
+        width: 70%;
+    }
+
+    .tab_image {
+        top: -3.5rem;
+        right: -2.5rem;
+        width: 53%;
+    }
+
+    .tab_image3 {
+        top: -3.5rem;
+        right: -2.5rem;
+        width: 53%;
+    }
+
+    .browser_btn {
+        justify-content: center;
+    }
+
+    .chrome_btn {
+        width: 8rem;
+    }
+
+    .firefox_btn {
+        width: 8rem;
+    }
+
+    .easy_speed_div {
+        width: 26rem;
+    }
+
+    .blue_image_div2 {
+        width: 20rem;
+    }
+}
