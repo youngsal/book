@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+/* screen size */
+/* 
+    Extra Small Devices (phones):
+    max-width: 480px
+
+    Small Devices (larger phones):
+    min-width: 481px and max-width: 768px
+
+    Medium Devices (tablets):
+    min-width: 769px and max-width: 1024px
+
+    Large Devices (desktops/laptops):
+    min-width: 1025px and max-width: 1200px
+
+    Extra Large Devices (large desktops):
+    min-width: 1201px
+*/
+
 :root {
     --primary-color: hsl(229, 31%, 21%);
     --article-color: hsl(229, 8%, 60%);
@@ -19,7 +37,8 @@
     font-family: "Rubik", serif;
 }
 
-@media screen and (max-width: 1440px) {
+/* @media screen and (min-width: 350px) and (max-width: 1680px) { */
+@media screen and (max-width: 1680px) {
     .body_wrapper {
         min-height: 100vh;
         font-size: 0.875rem;
@@ -552,7 +571,6 @@
     .logo_div2 {
         height: 2.5rem;
         text-align: center;
-        align
     }
 
     .logo_div2 a {
@@ -600,7 +618,8 @@
     }
 }
 
-@media screen and (max-width: 768px){
+/* @media screen and (min-width: 350px) and (max-width: 480px){ */
+@media screen and (max-width: 400px) {
     body {
         margin: 0rem;
     }
@@ -751,14 +770,14 @@
 
     .blue_image_div {
         right: -7rem;
-        width: 75%;
+        width: 100%;
         height: 10rem;
     }
 
     .blue_image_div img {
         top: -2.8rem;
         left: -5rem;
-        width: 110%;
+        width: 80%;
     }
 
     .manager_head {
@@ -846,13 +865,13 @@
     .blue_image_div2 {
         left: -1rem;
         width: 73%;
-        height: 10rem;
+        height: 130rem;
     }
 
     .tab_img {
         top: -2rem;
         right: -4rem;
-        width: 110%;
+        width: 100%;
     }
 
     .tab_image {
@@ -989,21 +1008,21 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
     .simple_bookmark_section2 {
         margin: 2.5rem 1rem 0rem 1rem;
     }
 
     .blue_image_div {
-        right: -7rem;
-        width: 75%;
-        height: 100rem;
+        right: -10rem;
+        width: 90%;
+        height: 10rem;
     }
     
     .blue_image_div img {
-        top: -2.8rem;
+        top: -2rem;
         left: -5rem;
-        width: 110%;
+        width: 80%;
     }
     
     .blue_image_div2 {
@@ -1031,7 +1050,7 @@
     }
 }
 
-@media screen and (max-width: 396px) {
+/* @media screen and (max-width: 396px) {
     .tab_img {
         top: -2.5rem;
         right: -4rem;
@@ -1274,4 +1293,4 @@
     .blue_image_div2 {
         width: 20rem;
     }
-}
+} */
